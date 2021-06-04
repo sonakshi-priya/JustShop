@@ -1,0 +1,22 @@
+.subtotal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.subtotal__info {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.subtotal > button {
+  background-color: rgb(35, 197, 35);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
